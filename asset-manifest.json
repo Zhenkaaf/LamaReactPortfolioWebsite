@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LamaReactPortfolioWebsite/static/css/main.01993db3.css",
+    "main.js": "/LamaReactPortfolioWebsite/static/js/main.5816fc87.js",
+    "static/js/787.28cb0dcd.chunk.js": "/LamaReactPortfolioWebsite/static/js/787.28cb0dcd.chunk.js",
+    "static/media/xxx.png": "/LamaReactPortfolioWebsite/static/media/xxx.8d8a9843d021d4786e19.png",
+    "index.html": "/LamaReactPortfolioWebsite/index.html",
+    "main.01993db3.css.map": "/LamaReactPortfolioWebsite/static/css/main.01993db3.css.map",
+    "main.5816fc87.js.map": "/LamaReactPortfolioWebsite/static/js/main.5816fc87.js.map",
+    "787.28cb0dcd.chunk.js.map": "/LamaReactPortfolioWebsite/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01993db3.css",
+    "static/js/main.5816fc87.js"
+  ]
+}
