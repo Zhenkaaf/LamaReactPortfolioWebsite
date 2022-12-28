@@ -5,7 +5,7 @@
 .c-bg {
     width: 20px;
     height: 100%;
-    background-color: #59b256;
+    background-color: purple;
     position: absolute;
 }
 .c-wrapper {
@@ -23,7 +23,9 @@
     flex-direction: column;
 }
 .c-title {
-    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
     width: 80%;
 }
 .c-info-item {
@@ -37,10 +39,12 @@
     width: 30px;
     height: 30px;
     margin-right: 20px;
+    padding: 10px;
 }
 .c-desc {
     font-weight: 200;
     align-items: flex-end;
+    margin: 0;
 }
 form {
     margin-top: 20px;
@@ -59,26 +63,31 @@ textarea {
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
+
 }
 button {
     border: none;
     padding: 15px;
-    background-color: #59b256;
+    background-color: purple;
     color: white;
     font-weight: 500;
     cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.c-message {
+    color: #59b256;
+    margin: 0 auto;
+    display: block;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .c {
         height: auto;
     }
     .c-wrapper {
         flex-direction: column;
         padding: 0px 50px;
-    }
-    .c-title {
-        font-size: 30px;
     }
     .c-info-item {
         margin: 20px 0px;
@@ -97,6 +106,13 @@ button {
     }
     button {
         width: 100%;
-        margin-bottom: 30px;
     }
+}
+@media screen and (max-width: 480px) {
+
+    .c-title {
+       font-size: 22px;
+       width: 100%;
+    }
+ 
 }
